@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Form</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+
+<div id="container">
+
+  <h2>Contact us!</h2>
+    
+    <form class="form-horizontal" name="enquiryform" method="post" action="form.php">
+    <!-- for === name -->                
+    <div class="form-group-lg">    
+            <label class="control-label col-xs-4" for="name">Name *</label>
+        <div class="col-xs-8">
+            <input type="text" class="form-control" id="name" placeholder="First name" name="name" required>
+        </div>
+    </div>
+
+    <div class="form-group-lg">
+            <label class="control-label col-xs-4" for="surname">Surname</label>
+        <div class="col-xs-8">
+            <input type="text" class="form-control" id="surname" placeholder="Last name" name="surname">
+        </div>
+    </div>
+
+    <div class="form-group-lg">
+            <label class="control-label col-xs-4" for="email">Email *</label>
+        <div class="col-xs-8">
+            <input type="email" class="form-control" id="email" placeholder="you@example.com"  name="email" required>
+        </div>
+    </div>
+
+    <div class="form-group-lg">
+            <label class="control-label col-xs-4" for="mobile">Mobile</label>
+        <div class="col-xs-8">
+            <input type="tel" class="form-control" id="mobile" placeholder="Phone number" name="mobile">
+        </div>
+    </div>
+
+    <div class="form-group-lg">
+            <label class="control-label col-xs-4" for="message">Message *</label>
+        <div class="col-xs-8">
+            <textarea class="form-control col-xs-8" id="message" rows="6" name="message" placeholder="What is your question?" required></textarea>
+        </div>
+    </div>
+
+        <div class="form-group">
+            <div class="col-xs-12">
+                <input type="submit" class="btn btn-default" value="Submit">
+            </div>            
+        </div>
+
+    </form> 
+</div>  
+
+</body>
+</html>
