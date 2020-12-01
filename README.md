@@ -1,6 +1,6 @@
 # PHP
 
-A simple website form using HTML, CSS (Bootstrap) and PHP that sends input to email.
+A simple website form that sends input to email.
 
 Action = form.php. Fails when action = submit to self.
 
